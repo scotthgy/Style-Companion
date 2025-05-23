@@ -28,7 +28,6 @@ def save_wardrobe():
             weathers = ";".join(item["weather"])
             f.write(f"{item['name']},{item['type']},{item['color']},{occasions},{weathers}\n")
 
-# Load wardrobe on module import
 load_wardrobe()
 
 def manage_wardrobe():
@@ -52,7 +51,6 @@ def manage_wardrobe():
     else:
         print("Invalid choice. Please try again.")
 
-    # Save wardrobe after any change
     save_wardrobe()
 
 def add_clothing():
