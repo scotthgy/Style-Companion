@@ -1,1 +1,1 @@
-# Style-Companion
+# Style Companion
